@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+  <!-- text font css-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Roboto&display=swap"
+    rel="stylesheet">
+
+  <!-- pure g-->>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
+
+  <title>Energy Consumption challenges</title>
+
+</head>
+
+<body>
+  <div class=page>
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1 class="bg-h1">Energy Consumption challenges</h1>
+      </div>
+    </div>
+
+    <div class="pure-g">
+      <div class="pure-u-1-2">
+        <h2 class="centert">Introduction</h2>
+        <p style="font-size: 16px;">In today's modern era, <strong> energy consumption </strong> stands as a  pivotal 
+          indicator a <strong> nation's development and progress </strong>.
+          With the global population on the rise and industrial sectors expanding, 
+          the demand for energy has witnessed an <strong> unprecedented surge </strong>.
+          This visualization will analyze in this.</p>
+      </div>
+    <div class="pure-u-1-2">
+    <div class="right_text">
+      <img src="data/img1.jpg" alt="image to attract people" width="370px">
+    </div>
+  </div>
+</div>
+    <div class="pure-g">
+      <div style="width: 100%;">
+        <h2 class="hcenter">Energy Consumption In World</h2>
+      </div>
+      <div class="pure-u-1-1">
+        <div id="choropleth_map" class="chart-size"></div>
+        <p class="left_note">
+          How to Interact: click the slider to change year
+        </p>
+      </div>
+      <div class="pure-u-1-1">
+        <hr>
+        <p class="chart-text p_2col">
+          First, let's get a general understanding of global energy consumption. 
+          It's easy to see that regions with larger <span style="color: rgb(42, 134, 245);">economic and population</span> sizes, 
+          such as the <span style="color: rgb(42, 134, 245);">United States and China</span>, have higher energy consumption. In contrast, 
+          economically underdeveloped areas, like many countries in <span style="color: rgb(42, 134, 245);">Africa</span>, 
+          have significantly lower energy consumption. 
+          <br><br>
+          When we adjust the <span style="color: rgb(42, 134, 245);"> years </span> to observe changes, it's evident to see the 
+          <span style="color: rgb(42, 134, 245);">growth</span> in global energy consumption, especially in African countries.
+          Considering the vast disparities in energy consumption among different countries, the data in this chart 
+          has undergone <span style="color: rgb(42, 134, 245);">logarithmic</span> processing to make the differences between countries more pronounced.
+        </p>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div style="width: 100%;">
+        <h2 class="hcenter">GDP rank of countries</h2>
+      </div>
+      <div class="pure-u-1-2" style="margin: auto;">
+        <div id="bar_chart" class="chart-size"></div>
+        <p class="left_note">
+          How to Interact: Drag the slider to select the GDP range
+        </p>
+      </div>
+      <div class="pure-u-1-2">
+        <p class="chart-text right_text">
+          The relationship between <span style="color: rgb(42, 134, 245);">GDP and energy consumption </span>is often viewed as symbiotic. 
+          As nations develop and industrialize, their energy demands typically increase, 
+          driving up GDP. Conversely, a robust <span style="color: rgb(42, 134, 245);">GDP can indicate high energy utilization</span>, 
+          reflecting economic activities and growth.
+          <br><br>
+          Here, this visualization uses a bar chart to <span style="color: rgb(42, 134, 245);">rank </span>countries with higher GDPs globally 
+          and <span style="color: rgb(42, 134, 245);">highlights </span>the top two countries with a distinct color. In conjunction with the first 
+          chart, readers can better compare and analyze the situation of high GDP countries in 
+          relation to energy consumption
+        </p>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div style="width: 100%;">
+        <h2 class="hcenter">Top GDP Countries's Energy stucture</h2>
+      </div>
+      <div class="pure-u-1-1">
+        <p class="left_note">
+          How to Interact: click select to choose country and lengend to focus on energy kind
+        </p>
+        <div id="pie_chart" class="chart-size"></div>
+        <hr>
+        <p class="chart-text p_2col">
+          The energy structure of a country, which defines the mix of energy sources it utilizes, 
+          can <span style="color: rgb(42, 134, 245);">significantly influence its GDP</span>, as the availability and cost of energy impact economic 
+          activities and growth. For most of the countries at the top of the GDP scale, the energy consumed 
+          is dominated by coal and oil. <span style="color: rgb(42, 134, 245);">Brazil is exception</span>, with hydroelectricity shooting for second 
+          place in the overall share of all energy consumed.
+          <br>
+          Countries like<span style="color: rgb(42, 134, 245);"> the United States Russia and other countries </span>with little demographic or economic change will see 
+          some growth in other energy sources as some energy sources decrease, and the overall trend is relatively smooth.
+          <span style="color: rgb(42, 134, 245);"> Developing countries like India </span> can see extremely clearly the rapid rise in energy consumption as a result of 
+          population and economic development.
+        </p>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div style="width: 100%;">
+        <h2 class="hcenter">GDP/capita and Energy/capita</h2>
+      </div>
+      <div class="pure-u-1-1">
+        <p class="left_note">
+          How to Interact: Selected different areas in the second picture
+        </p>
+        <div id="scalar_plot" class="chart-size"></div>
+        <hr>
+        <p class="chart-text p_2col">
+          Per capita GDP and per capita energy consumption are closely intertwined. 
+          As individual <span style="color: rgb(42, 134, 245);">income (GDP/capita) increases</span>, the <span style="color: rgb(42, 134, 245);">demand for goods</span>, services, 
+          and modern amenities rises, leading to greater energy consumption per person. Conversely, 
+          efficient energy infrastructure can boost economic productivity and raise GDP/capita.
+          <br><br>
+          Because GDP and total energy are <span style="color: rgb(42, 134, 245);">affected</span> by the size of the<span style="color: rgb(42, 134, 245);"> population</span>, 
+          GDP per capita and energy consumption per capita are analyzed here. 
+          In general when GDP per capita increases, energy consumption per capita also increases. 
+          <span style="color: rgb(42, 134, 245);">However, some counties like Iceland</span> will have a relatively high per capita energy consumption 
+          due to environmental reasons.
+        </p>
+      </div>
+    </div>
+
+    <div class="pure-g">
+      <div style="width: 100%;">
+        <h2 class="hcenter">Countries with high energy consumption per capita</h2>
+      </div>
+      <div class="pure-u-1-1">
+        <div id="heatmap" class="chart-size"></div>
+        <hr>
+        <p class="chart-text p_2col">
+          From the previous scatterplot it is easy to identify <span style="color: rgb(42, 134, 245);">some countries with large deviations</span>, 
+          which have very high per capita energy consumption. Here we use heatmap to compare and analyze these 
+          countries. <span style="color: rgb(42, 134, 245);">Qatar's high per capita energy growth in recent years may be related to the tell-tale development 
+          of Qatar's GDP in recent years</span>. While Trinidad and Tobago maintains a decreasing trend.
+          <br><br>
+          Per capita energy consumption measures <span style="color: rgb(42, 134, 245);">the average energy use </span>of each indivuidal in 
+          a specific region or country. It provides insights into the lifestyle, economic activities, 
+          and technological advancement of that area. A higher consumption can indicate a developed 
+          infrastructure and advanced technology, while a lower rate may suggest inefficiencies or 
+          limited access to modern energy sources.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+
+    var spec1 = "js/graph_1.vg.json";
+    vegaEmbed('#choropleth_map', spec1, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec2 = "js/graph_2.vg.json";
+    vegaEmbed('#bar_chart', spec2, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec3 = "js/graph_3_4.vg.json";
+    vegaEmbed('#pie_chart', spec3, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec5 = "js/graph_5.vg.json";
+    vegaEmbed('#scalar_plot', spec5, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    var spec6 = "js/graph_6.vg.json";
+    vegaEmbed('#heatmap', spec6, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+  </script>
+
+
+</body>
+
+</html>

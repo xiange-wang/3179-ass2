@@ -1,0 +1,337 @@
+year,country,Energy Type,value
+2010,Brazil,coal,168.198
+2011,Brazil,coal,179.67
+2012,Brazil,coal,177.797
+2013,Brazil,coal,191.644
+2014,Brazil,coal,203.767
+2015,Brazil,coal,204.978
+2016,Brazil,coal,185.147
+2010,China,coal,20340.292
+2011,China,coal,22141.823
+2012,China,coal,22420.252
+2013,China,coal,22900.337
+2014,China,coal,22730.671
+2015,China,coal,22259.357
+2016,China,coal,21970.171
+2010,Germany,coal,896.173
+2011,Germany,coal,910.792
+2012,Germany,coal,936.075
+2013,Germany,coal,963.399
+2014,Germany,coal,925.896
+2015,Germany,coal,915.057
+2016,Germany,coal,889.936
+2010,India,coal,3377.143
+2011,India,coal,3542.844
+2012,India,coal,3837.761
+2013,India,coal,4102.856
+2014,India,coal,4507.141
+2015,India,coal,4597.026
+2016,India,coal,4682.363
+2010,Japan,coal,1353.081
+2011,Japan,coal,1283.13
+2012,Japan,coal,1354.698
+2013,Japan,coal,1408.994
+2014,Japan,coal,1385.253
+2015,Japan,coal,1397.549
+2016,Japan,coal,1394.891
+2010,Russia,coal,1053.019
+2011,Russia,coal,1093.419
+2012,Russia,coal,1144.691
+2013,Russia,coal,1052.714
+2014,Russia,coal,1018.228
+2015,Russia,coal,1071.356
+2016,Russia,coal,1037.978
+2010,United States,coal,5800.546
+2011,United States,coal,5473.076
+2012,United States,coal,4838.409
+2013,United States,coal,5022.275
+2014,United States,coal,5010.86
+2015,United States,coal,4329.081
+2016,United States,coal,3960.744
+2010,World,coal,41997.234
+2011,World,coal,44018.078
+2012,World,coal,44185.345
+2013,World,coal,44993.467
+2014,World,coal,44954.435
+2015,World,coal,43844.173
+2016,World,coal,43195.639
+2010,Brazil,gas,275.768
+2011,Brazil,gas,274.834
+2012,Brazil,gas,325.766
+2013,Brazil,gas,383.828
+2014,Brazil,gas,406.555
+2015,Brazil,gas,429.366
+2016,Brazil,gas,370.879
+2010,China,gas,1088.741
+2011,China,gas,1351.63
+2012,China,gas,1508.777
+2013,China,gas,1718.787
+2014,China,gas,1883.633
+2015,China,gas,1946.897
+2016,China,gas,2094.413
+2010,Germany,gas,880.713
+2011,Germany,gas,808.608
+2012,Germany,gas,811.101
+2013,Germany,gas,849.744
+2014,Germany,gas,738.951
+2015,Germany,gas,769.537
+2016,Germany,gas,848.848
+2010,India,gas,589.617
+2011,India,gas,602.859
+2012,India,gas,556.991
+2013,India,gas,490.193
+2014,India,gas,485.016
+2015,India,gas,478.069
+2016,India,gas,507.91
+2010,Japan,gas,999.368
+2011,Japan,gas,1120.253
+2012,Japan,gas,1232.152
+2013,Japan,gas,1235.37
+2014,Japan,gas,1247.522
+2015,Japan,gas,1187.177
+2016,Japan,gas,1164.175
+2010,Russia,gas,4239.206
+2011,Russia,gas,4356.365
+2012,Russia,gas,4286.262
+2013,Russia,gas,4248.678
+2014,Russia,gas,4221.986
+2015,Russia,gas,4086.751
+2016,Russia,gas,4206.467
+2010,United States,gas,6481.94
+2011,United States,gas,6582.113
+2012,United States,gas,6881.233
+2013,United States,gas,7070.234
+2014,United States,gas,7222.61
+2015,United States,gas,7435.801
+2016,United States,gas,7490.995
+2010,World,gas,31606.766
+2011,World,gas,32370.994
+2012,World,gas,33220.032
+2013,World,gas,33766.139
+2014,World,gas,33994.279
+2015,World,gas,34780.121
+2016,World,gas,35590.036
+2010,Brazil,oil,1260.908
+2011,Brazil,oil,1340.54
+2012,Brazil,oil,1382.749
+2013,Brazil,oil,1462.305
+2014,Brazil,oil,1507.089
+2015,Brazil,oil,1413.763
+2016,Brazil,oil,1341.947
+2010,China,oil,5275.549
+2011,China,oil,5467.332
+2012,China,oil,5731.224
+2013,China,oil,5982.924
+2014,China,oil,6227.52
+2015,China,oil,6638.916
+2016,China,oil,6807.743
+2010,Germany,oil,1357.645
+2011,Germany,oil,1313.272
+2012,Germany,oil,1305.39
+2013,Germany,oil,1334.263
+2014,Germany,oil,1298.319
+2015,Germany,oil,1296.543
+2016,Germany,oil,1323.32
+2010,India,oil,1866.314
+2011,India,oil,1953.503
+2012,India,oil,2069.576
+2013,India,oil,2083.452
+2014,India,oil,2144.123
+2015,India,oil,2316.802
+2016,India,oil,2540.975
+2010,Japan,oil,2444.158
+2011,Japan,oil,2450.343
+2012,Japan,oil,2611.461
+2013,Japan,oil,2491.799
+2014,Japan,oil,2367.314
+2015,Japan,oil,2278.486
+2016,Japan,oil,2213.772
+2010,Russia,oil,1604.103
+2011,Russia,oil,1710.157
+2012,Russia,oil,1739.529
+2013,Russia,oil,1738.413
+2014,Russia,oil,1830.673
+2015,Russia,oil,1736.743
+2016,Russia,oil,1782.957
+2010,United States,oil,9891.909
+2011,United States,oil,9691.614
+2012,United States,oil,9478.263
+2013,United States,oil,9637.349
+2014,United States,oil,9706.55
+2015,United States,oil,9905.573
+2016,United States,oil,9977.21
+2010,World,oil,48087.136
+2011,World,oil,48549.975
+2012,World,oil,49156.72
+2013,World,oil,49688.511
+2014,World,oil,50013.654
+2015,World,oil,50891.976
+2016,World,oil,51920.156
+2010,Brazil,hydro,1051.523
+2011,Brazil,hydro,1110.01
+2012,Brazil,hydro,1069.822
+2013,Brazil,hydro,1001.035
+2014,Brazil,hydro,950.37
+2015,Brazil,hydro,910.064
+2016,Brazil,hydro,957.913
+2010,China,hydro,1854.835
+2011,China,hydro,1783.045
+2012,China,hydro,2222.35
+2013,China,hydro,2328.828
+2014,China,hydro,2696.822
+2015,China,hydro,2819.461
+2016,China,hydro,2900.231
+2010,Germany,hydro,54.632
+2011,Germany,hydro,45.797
+2012,Germany,hydro,56.899
+2013,Germany,hydro,58.88
+2014,Germany,hydro,49.847
+2015,Germany,hydro,48.008
+2016,Germany,hydro,51.67
+2010,India,hydro,283.535
+2011,India,hydro,341.308
+2012,India,hydro,298.212
+2013,India,hydro,337.909
+2014,India,hydro,353.733
+2015,India,hydro,337.173
+2016,India,hydro,322.853
+2010,Japan,hydro,230.759
+2011,Japan,hydro,213.762
+2012,Japan,hydro,198.591
+2013,Japan,hydro,203.108
+2014,Japan,hydro,207.941
+2015,Japan,hydro,216.965
+2016,Japan,hydro,186.283
+2010,Russia,hydro,434.084
+2011,Russia,hydro,422.552
+2012,Russia,hydro,421.019
+2013,Russia,hydro,463.791
+2014,Russia,hydro,441.274
+2015,Russia,hydro,424.984
+2016,Russia,hydro,464.261
+2010,United States,hydro,670.809
+2011,United States,hydro,819.15
+2012,United States,hydro,705.835
+2013,United States,hydro,682.432
+2014,United States,hydro,650.863
+2015,United States,hydro,623.468
+2016,United States,hydro,663.312
+2010,World,hydro,8958.472
+2011,World,hydro,9072.896
+2012,World,hydro,9400.811
+2013,World,hydro,9764.87
+2014,World,hydro,9910.341
+2015,World,hydro,9827.171
+2016,World,hydro,10091.741
+2010,Brazil,nuclear,37.867
+2011,Brazil,nuclear,40.581
+2012,Brazil,nuclear,41.311
+2013,Brazil,nuclear,39.555
+2014,Brazil,nuclear,39.137
+2015,Brazil,nuclear,37.274
+2016,Brazil,nuclear,39.896
+2010,China,nuclear,194.88
+2011,China,nuclear,225.976
+2012,China,nuclear,253.245
+2013,China,nuclear,285.469
+2014,China,nuclear,339.027
+2015,China,nuclear,433.546
+2016,China,nuclear,536.1
+2010,Germany,nuclear,366.481
+2011,Germany,nuclear,279.804
+2012,Germany,nuclear,256.185
+2013,Germany,nuclear,249.086
+2014,Germany,nuclear,247.185
+2015,Germany,nuclear,232.198
+2016,Germany,nuclear,212.837
+2010,India,nuclear,60.183
+2011,India,nuclear,83.506
+2012,India,nuclear,85.36
+2013,India,nuclear,85.277
+2014,India,nuclear,88.272
+2015,India,nuclear,96.909
+2016,India,nuclear,95.305
+2010,Japan,nuclear,762.275
+2011,Japan,nuclear,422.22
+2012,Japan,nuclear,46.342
+2013,Japan,nuclear,37.387
+2014,Japan,nuclear,0.0
+2015,Japan,nuclear,11.446
+2016,Japan,nuclear,44.457
+2010,Russia,nuclear,444.333
+2011,Russia,nuclear,448.171
+2012,Russia,nuclear,457.285
+2013,Russia,nuclear,441.663
+2014,Russia,nuclear,460.012
+2015,Russia,nuclear,494.493
+2016,Russia,nuclear,494.445
+2010,United States,nuclear,2214.8
+2011,United States,nuclear,2155.566
+2012,United States,nuclear,2085.908
+2013,United States,nuclear,2126.394
+2014,United States,nuclear,2135.492
+2015,United States,nuclear,2122.812
+2016,United States,nuclear,2132.795
+2010,World,nuclear,7218.503
+2011,World,nuclear,6874.33
+2012,World,nuclear,6364.201
+2013,World,nuclear,6383.714
+2014,World,nuclear,6466.974
+2015,World,nuclear,6516.074
+2016,World,nuclear,6575.951
+2010,Brazil,wind,5.675
+2011,Brazil,wind,7.009
+2012,Brazil,wind,13.008
+2013,Brazil,wind,16.836
+2014,Brazil,wind,31.074
+2015,Brazil,wind,54.708
+2016,Brazil,wind,84.218
+2010,China,wind,128.803
+2011,China,wind,192.028
+2012,China,wind,265.432
+2013,China,wind,353.99
+2014,China,wind,406.582
+2015,China,wind,469.503
+2016,China,wind,605.715
+2010,Germany,wind,100.506
+2011,Germany,wind,129.203
+2012,Germany,wind,133.115
+2013,Germany,wind,135.02
+2014,Germany,wind,148.87
+2015,Germany,wind,203.96
+2016,Germany,wind,200.992
+2010,India,wind,50.73
+2011,India,wind,62.072
+2012,India,wind,70.66
+2013,India,wind,76.826
+2014,India,wind,85.14
+2015,India,wind,82.828
+2016,India,wind,109.275
+2010,Japan,wind,10.236
+2011,Japan,wind,11.555
+2012,Japan,wind,12.177
+2013,Japan,wind,13.142
+2014,Japan,wind,12.76
+2015,Japan,wind,13.212
+2016,Japan,wind,15.337
+2010,Russia,wind,0.011
+2011,Russia,wind,0.014
+2012,Russia,wind,0.014
+2013,Russia,wind,0.011
+2014,Russia,wind,0.245
+2015,Russia,wind,0.374
+2016,Russia,wind,0.372
+2010,United States,wind,249.286
+2011,United States,wind,314.579
+2012,United States,wind,366.387
+2013,United States,wind,434.051
+2014,United States,wind,466.966
+2015,United States,wind,487.346
+2016,United States,wind,576.606
+2010,World,wind,903.467
+2011,World,wind,1141.844
+2012,World,wind,1367.349
+2013,World,wind,1627.737
+2014,World,wind,1797.902
+2015,World,wind,2103.669
+2016,World,wind,2423.694
